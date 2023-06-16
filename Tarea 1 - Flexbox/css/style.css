@@ -1,0 +1,127 @@
+body {
+  margin: 0;
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+}
+.superior {
+  display: flex;
+  height: 5vh;
+}
+.superior-izq {
+  width: 50vw;
+  display: flex;
+}
+.superior-izq a {
+  margin: 10px 20px;
+}
+.superior-der {
+  width: 50vw;
+  display: flex;
+  justify-content: right;
+  padding-left: 20px;
+}
+.superior-der a {
+  margin: 10px 20px;
+}
+.img-app,
+.img-b {
+  width: 30px;
+  height: 30px;
+  margin: 10px 10px;
+}
+.medio-arriba {
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+}
+.med-arr-img {
+  display: flex;
+  align-items: last baseline;
+}
+.img-google {
+}
+.img-compartir {
+}
+.medio-abajo {
+  height: 56vh;
+}
+.medio-busqueda {
+  height: 6vh;
+  display: flex;
+  justify-content: center;
+}
+.busqueda {
+  border: 2px solid black;
+  border-radius: 100px;
+  width: 500px;
+  height: 50px;
+  display: flex;
+}
+textarea {
+  width: 250px;
+  height: 40px;
+  margin-top: 2px;
+  margin-left: 20px;
+  resize: none;
+}
+.img-micro {
+  margin-left: 50px;
+}
+.img-camera {
+  margin-left: 5px;
+}
+.medio-botones {
+  height: 4vh;
+  display: flex;
+  justify-content: center;
+}
+.medio-botones button {
+  margin-left: 10px;
+}
+.medio-idiomas {
+  height: 5vh;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+.medio-idiomas a {
+  margin-top: 15px;
+  margin-left: 15px;
+}
+.inferior {
+  background-color: rgb(202, 202, 202);
+  height: 9vh;
+}
+.inf-arr {
+  display: flex;
+}
+.inf-arr p {
+  margin: 10px 20px;
+}
+.inf-ab {
+  display: flex;
+}
+.inf-ab-iz a {
+  margin-left: 20px;
+}
+.inf-ab-iz {
+  width: 33vw;
+}
+.inf-ab-cen {
+  width: 33vw;
+  display: flex;
+  justify-content: center;
+}
+.inf-ab-cen img {
+  width: 20px;
+}
+.inf-ab-dr {
+  width: 33vw;
+  display: flex;
+  justify-content: right;
+}
+.inf-ab-dr a {
+  margin-left: 20px;
+}
